@@ -1,0 +1,32 @@
+GET http://localhost:5208/todos
+
+###
+
+POST http://localhost:5208/todos
+Content-Type: application/json
+
+{
+    "id":"2",
+    "name": "Do something else",
+    "isCompleted": false
+}
+
+###
+
+GET http://localhost:5208/todos/99
+
+
+###
+
+DELETE http://localhost:5208/todos/5
+
+###
+
+PUT http://localhost:5208/todos/002ee3e5-5fb7-41c7-8541-e42871d63f84
+Content-Type: application/json
+
+{
+    "id": "002ee3e5-5fb7-41c7-8541-e42871d63f84",
+    "name": "Ecrire un todo",
+    "isCompleted": true
+}
