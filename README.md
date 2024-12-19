@@ -56,3 +56,19 @@ cd Todo-list
    dotnet run
    ```
 By default, the backend will run on http://localhost:5000.
+
+### 3. Set Up Frontend
+
+Navigate to the frontend directory:
+   ```bash
+   cd ../frontend
+   ```
+   Install dependencies:
+   ```bash
+   npm install
+   ```
+   Start the frontend server:
+   ```bash
+   npm start
+   ```
+By default, the frontend will run on http://localhost:3000.
