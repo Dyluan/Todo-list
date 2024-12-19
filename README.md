@@ -72,3 +72,41 @@ Navigate to the frontend directory:
    npm start
    ```
 By default, the frontend will run on http://localhost:3000.
+
+---
+
+## API Endpoints
+
+Base URL: http://localhost:5000
+
+| Method | Endpoint | Description |
+| ------ | -------- | ----------- |
+| GET | /todos | Fetch all todos |
+| GET | /todos/{id} | Fetch a specific todo by id |
+| POST | /todos | Add a new todo |
+| PUT | /todos/{id} | Update a todo's completion state |
+| DELETE | /todos/{id} | Delete a todo by id |
+
+---
+
+## How to Use
+
+Navigate to http://localhost:3000 in your browser.
+Add a new task using the input field and the "+" button.
+Click on a task to toggle its completion state.
+Use the "X" button next to a task to delete it.
+
+## Technical details 
+
+### Frontend Highlights
+
+    **Framework:** React
+    Key Dependencies:
+        uuid for generating unique IDs.
+        axios for API requests (if applicable).
+
+### Backend Highlights
+
+    Framework: .NET Core
+    Data Storage: JSON file for persistence.
+    CORS Enabled: Allows the React app to connect to the backend.
