@@ -39,5 +39,8 @@ A full-stack Todo List application built with a React frontend and a .NET backen
 git clone https://github.com/Dyluan/Todo-list.git
 cd Todo-list
 
-###3. Setup the backend
+### 2. Set Up Backend
 
+1. Navigate to the backend directory:
+   ```bash
+   cd api
