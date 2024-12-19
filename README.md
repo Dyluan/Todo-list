@@ -38,9 +38,21 @@ A full-stack Todo List application built with a React frontend and a .NET backen
 ```bash
 git clone https://github.com/Dyluan/Todo-list.git
 cd Todo-list
+```
 
 ### 2. Set Up Backend
 
 1. Navigate to the backend directory:
    ```bash
    cd api
+   ```
+2. Restore dependencies and build the project:
+   ```bash
+   dotnet restore
+   dotnet build
+   ```
+3. Start the backend server:
+   ```bash
+   dotnet run
+   ```
+By default, the backend will run on http://localhost:5000.
