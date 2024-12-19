@@ -100,7 +100,7 @@ Use the "X" button next to a task to delete it.
 
 ### Frontend Highlights
 
-    **Framework:** React
+    Framework: React
     Key Dependencies:
         uuid for generating unique IDs.
         axios for API requests (if applicable).
