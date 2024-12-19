@@ -38,3 +38,6 @@ A full-stack Todo List application built with a React frontend and a .NET backen
 ```bash
 git clone https://github.com/Dyluan/Todo-list.git
 cd Todo-list
+
+###3. Setup the backend
+
